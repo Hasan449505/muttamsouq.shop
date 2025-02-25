@@ -60,18 +60,20 @@
       height: 400px;
       border-radius: 8px;
     }
-    .product button {
-      background-color: yellow;
-      color: green;
-      border: none;
-      padding: 10px;
-      cursor: pointer;
-      border-radius: 5px;
-      margin-top: 10px;
-    }
-    .product button:hover {
-      background-color: #45a049;
-    }
+.product button {
+  background-color: #007bff;  /* Blue color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.product button:hover {
+  background-color: yellow; /* Darker blue */
+  transform: scale(1.05); /* Slightly enlarge button */
+}
     #cart {
       position: fixed;
       top: 20px;
